@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./inter.css">
+    <link rel="stylesheet" href="./agenda.css">
+    <title>AGENDA EDWARD</title>
+    <script>
+
+</script>
+  </head>
+
+  <body  style="background-color:rgb(192, 192, 192)"> 
+    <div class="w3-container w3-blue">
+      <center>
+        <h1><a style="text-decoration: none;" href="https://cramerpuno.edu.pe/" ><b>AGENDA</b> <img src="1.png" width="50" height="50"> </b></a></h1> 
+      </center>     
+    </div> 
+  <center>
+    <form class="w3-container" onsubmit="event.preventDefault()">
+      <br><br><br>
+    <input  id="fname" name="fname" placeholder="nombre" type="text-decoration" />
+    <br>
+    <input   id="lname" name="lname" placeholder="celular" />
+    <br>
+    
+    <button class="w3-button w3-round w3-blue" onclick="create()">Añadir</button>
+   
+    <button class="w3-button w3-round w3-blue" onclick="deleteItem()">Eliminar</button>
+    
+
+  <h1><a style="color:rgb(0, 0, 0);" ><b>Usuario Registrado</b> <br>
+    
+     <select id="panel"  size="6" onclick="panelClick()"> 
+
+     </select>
+    </form>
+      
+
+  </form>
+  </center>
+
+    <script src="agenda.js">
+    </script>
+
+  </body>
+</html>
